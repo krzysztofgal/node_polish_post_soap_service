@@ -1,0 +1,17 @@
+{
+  "name": "polish_post_soap_service",
+  "version": "0.0.1",
+  "description": "JSON to SOAP to JSON request agent for Polish Post WebApi",
+  "main": "app.js",
+  "scripts": {
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dev@krzysztofgal.pl",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "soap": "^0.26.0"
+  }
+}
